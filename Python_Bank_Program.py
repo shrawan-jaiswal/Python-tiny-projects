@@ -68,5 +68,5 @@ def main():
     print("*******************************")
     print("Thank you! Have a nice day.")
     print("*******************************")
-if __name__ == '__main__': #This means that this program can be imported or can be run standalone.
+if __name__ == '__main__': #This means that this program can be imported | can be run standalone.
     main()
