@@ -93,3 +93,11 @@
 
 import os
 os.remove("demo.txt")
+
+try:
+    with open("sh.txt", "r") as f:
+        content = f.read()
+        print(content)
+
+except FileNotFoundError:
+    print("file not found")
